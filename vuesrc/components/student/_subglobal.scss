@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'SourceSansPro';
+  src:url('../../font/SourceSansPro-Regular.otf');
+}
+
+$shadowColor: #ccc;
+$gColor: #096;
+$fontColor:#666;
+$dangerColor:#c03;
+$submittedColor:#fc0;
+$markedColor:#096;
+
+$defaultFont:'SourceSansPro', sans-serif;
+
+.btn{
+  outline: none;
+  border:1px solid transparent;
+  color: white;
+  font-weight:bold;
+  font-size: 14px;
+  line-height: 2.4em;
+  height: 2.4em;
+  background-color: $gColor;
+  border-radius: 4px;
+  text-align: center;
+}
